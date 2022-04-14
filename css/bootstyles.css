@@ -15,9 +15,9 @@ h2 {
     text-align:"center";
     font-size:48px;
     font-weight:bold;
+    margin-bottom: 5px;
+    margin-top:5px;
 }
-
-
 
 .header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -33,13 +33,14 @@ h2 {
     font-size:24px;
 }
 
-.caption_box {
+.summary_box {
     color: black;
     background-color:rgb(159, 231, 207);
     font-size:36px;
     margin: 10 auto;
     margin-left: 10%;
     margin-right: 10%;
+    position: relative;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
 }
@@ -47,12 +48,44 @@ h2 {
 .table_container {
     color: black;
     background-color:rgb(159, 231, 207);
+    position:relative;
+    max-width: 80%;
+    min-width: 400px;
+    height: fit-content;
+    position: relative;
 
 }
 
+.Left_Image {
+    left:0px;
+}
+
+.Right_Image {
+    right:0px;
+}
+
+.tableauViz {
+    width:95%;
+    height:800px;
+}
+
 .tableauPlaceholder {
-    width: 75%;
-    height: 75%;
-    position:fixed;
     margin: 0 auto;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom:0px;
+}
+
+.caption_text {
+    bottom: 100px;
+
+}
+h4 {
+    margin:0px;
+    padding:0px;
+}
+
+.Cali_Months {
+    /* margin-left: 800px; */
+    /* margin-right: 20px; */
 }
