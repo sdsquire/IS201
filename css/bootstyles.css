@@ -19,6 +19,25 @@ h2 {
     margin-top:5px;
 }
 
+h3 {
+    margin:0px;
+}
+
+.navlink_box {
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+    padding-top:15px;
+}
+
+.navlink {
+    font-family:'Times New Roman', Times, serif;
+    font-weight: normal;
+    color:blue;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
 .header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color:rgb(142, 253, 197);
@@ -51,9 +70,9 @@ h2 {
     position:relative;
     max-width: 80%;
     min-width: 400px;
+    margin-top:50px;
     height: fit-content;
     position: relative;
-
 }
 
 .Left_Image {
@@ -61,7 +80,8 @@ h2 {
 }
 
 .Right_Image {
-    right:0px;
+    margin-left:20%;
+    /* right:0%; */
 }
 
 .tableauViz {
@@ -78,14 +98,15 @@ h2 {
 
 .caption_text {
     bottom: 100px;
-
-}
-h4 {
-    margin:0px;
-    padding:0px;
+    margin-left: 2.5%;
 }
 
-.Cali_Months {
-    /* margin-left: 800px; */
-    /* margin-right: 20px; */
+.footer {
+    background-color: rgb(159, 231, 207);
+    text-align: center;
+    font-size: 10;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:dimgrey;
+    margin-top: 20px;
+    margin-bottom:0px;
 }
