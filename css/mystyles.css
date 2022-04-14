@@ -1,4 +1,22 @@
-.intro {
-    position:absolute
-    
+.intro-text {
+    background-color:rgb(69, 230, 241);
+}
+
+.section-heading-lower {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+}
+
+.mb-0 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+}
+
+.resume_list_header {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+body {
+    background-image: url("../images/teal_background.jpg");
 }
